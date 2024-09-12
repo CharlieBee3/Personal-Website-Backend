@@ -3,13 +3,7 @@ name: Backend Build and Push to Artifact Registry
 on:
   push:
     branches: [main]
-    paths:
-      - "backend/**"
-  pull_request:
-    branches: [main]
-    paths:
-      - "backend/**"
-
+   
 env:
   PROJECT_ID: 	tactical-grid-435414-s9
   REPOSITORY_NAME: Personal-Website-Backend
