@@ -6,7 +6,7 @@ on:
    
 env:
   PROJECT_ID: 	tactical-grid-435414-s9
-  REPOSITORY_NAME: Personal-Website-Backend
+  REPOSITORY_NAME: personal-website-backend
   REGION: europe-west2
   IMAGE_NAME: backend-api
 
