@@ -58,7 +58,7 @@ jobs:
           --description="Repository for combined-app"
 
       - name: Build Docker image
-        working-directory: ./backend
+        working-directory: .
         run: |
           docker build -t ${{ env.IMAGE_NAME }}:${{ github.sha }} .
 
