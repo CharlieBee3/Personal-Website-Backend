@@ -17,6 +17,8 @@ RUN poetry config virtualenvs.create false \
 # Copy the content of the local src directory to the working directory
 COPY . .
 
+EXPOSE 8080
+
 # Specify the command to run on container start
 CMD ["poetry", "run", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
 
